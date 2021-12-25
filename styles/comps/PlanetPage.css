@@ -1,0 +1,90 @@
+main {
+  color: white;
+
+  margin-bottom: 44px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 50px;
+  padding: 0 24px;
+  border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+}
+menu p {
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1.93px;
+
+  text-transform: uppercase;
+}
+
+section {
+  display: grid;
+  place-items: center;
+
+  padding: 0 24px;
+}
+.planet-img {
+  padding: 74px 0;
+}
+article {
+  display: grid;
+  gap: 16px;
+  text-align: center;
+}
+article h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+article p {
+  font-size: 11px;
+  line-height: 22px;
+}
+.details-container {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+.details-container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 48px;
+  padding: 0 24px;
+  border: rgba(255, 255, 255, 0.1) solid 1px;
+  text-transform: uppercase;
+}
+
+.details-container p {
+  font-size: 8px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.73px;
+}
+.details-container h6 {
+  font-size: 20px;
+  letter-spacing: -0.75px;
+}
+
+.source {
+  padding: 44px 0;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+
+  display: flex;
+}
+.source a {
+  text-decoration: underline;
+  font-weight: bold;
+
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2px;
+  align-items: center;
+
+  margin-left: 6px;
+}
