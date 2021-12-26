@@ -1,14 +1,17 @@
-import type { FC } from "react";
+import { FC, useState } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../../data.js";
 import "../../styles/comps/PlanetPage.css";
 
 const Planet: FC = () => {
   let params = useParams();
+  const [userSelect, setUserSelect] = useState("Overview");
+
+  const color = data.filter((item) => item.name === params.planetId)[0].color;
   return (
     <main>
       <menu>
-        <p>Overview</p>
+        <p style={{ borderBottom: `${color} solid 4px` }}>Overview</p>
         <p>Structure</p>
         <p>Surface</p>
       </menu>

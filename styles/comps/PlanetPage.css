@@ -18,6 +18,10 @@ menu p {
   letter-spacing: 1.93px;
 
   text-transform: uppercase;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
 }
 
 section {

@@ -21,6 +21,7 @@ export const data = [
     revolution: "87.97 Days",
     radius: "2,439.7 KM",
     temperature: "430°c",
+    color: "#419EBB",
     images: {
       planet: "/assets/planet-mercury.svg",
       internal: "/assets/planet-mercury-internal.svg",
@@ -48,6 +49,7 @@ export const data = [
     revolution: "224.7 Days",
     radius: "6,051.8 KM",
     temperature: "471°c",
+    color: "#EDA249",
     images: {
       planet: "/assets/planet-venus.svg",
       internal: "/assets/planet-venus-internal.svg",
@@ -75,6 +77,7 @@ export const data = [
     revolution: "365.26 Days",
     radius: "6,371 KM",
     temperature: "16°c",
+    color: "#EDA249",
     images: {
       planet: "/assets/planet-earth.svg",
       internal: "/assets/planet-earth-internal.svg",
@@ -102,6 +105,7 @@ export const data = [
     revolution: "1.88 Years",
     radius: "3,389.5 KM",
     temperature: "-28°c",
+    color: "#D14C32",
     images: {
       planet: "/assets/planet-mars.svg",
       internal: "/assets/planet-mars-internal.svg",
@@ -130,6 +134,7 @@ export const data = [
     revolution: "11.86 Years",
     radius: "69,911 KM",
     temperature: "-108°c",
+    color: "#D83A34",
     images: {
       planet: "/assets/planet-jupiter.svg",
       internal: "/assets/planet-jupiter-internal.svg",
@@ -157,6 +162,7 @@ export const data = [
     revolution: "29.46 Years",
     radius: "58,232 KM",
     temperature: "-138°c",
+    color: "#CD5120",
     images: {
       planet: "/assets/planet-saturn.svg",
       internal: "/assets/planet-saturn-internal.svg",
@@ -184,6 +190,7 @@ export const data = [
     revolution: "84 Years",
     radius: "25,362 KM",
     temperature: "-195°c",
+    color: "#1EC1A2",
     images: {
       planet: "/assets/planet-uranus.svg",
       internal: "/assets/planet-uranus-internal.svg",
@@ -211,6 +218,7 @@ export const data = [
     revolution: "164.79 Years",
     radius: "24,622 KM",
     temperature: "-201°c",
+    color: "#2D68F0",
     images: {
       planet: "/assets/planet-neptune.svg",
       internal: "/assets/planet-neptune-internal.svg",
